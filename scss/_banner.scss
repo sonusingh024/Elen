@@ -1,0 +1,50 @@
+.banner-section {
+  background-size: cover;
+  background: linear-gradient(to bottom, #ffffffcc, #ffffffcc),
+    url(/Images/bg_1.jpeg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+ 
+}
+.banner {
+  margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+
+  &__pic {
+    margin-bottom: 1.5rem;
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+  }
+  &__text {
+    h2 {
+      font-size: 24px;
+      color: #bfbfbf;
+      font-weight: 300;
+      margin-bottom: .5rem;
+    }
+    h1 {
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+      line-height: 1.5;
+     
+    }
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    &--cta {
+      a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #bfbfbf;
+        border-bottom: 2px solid #bfbfbf;
+      }
+    }
+  }
+}

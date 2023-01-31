@@ -1,0 +1,103 @@
+.herosection {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  @media (max-width: 992px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &__tittle {
+    margin: auto;
+    margin-bottom: 3rem;
+    h3 {
+      font-size: 34px;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      letter-spacing: 1px;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+  }
+  &__card {
+    &--item {
+      margin-bottom: 6rem;
+      .card-pic {
+        img {
+          height: 330px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .card-wrapper {
+        span {
+          color: $orangecolor;
+          font-size: 12px;
+          letter-spacing: 1px;
+          margin-top: 1rem;
+          padding-top: 0.5rem;
+        }
+        h4 {
+          font-size: 22px;
+          font-weight: 600;
+          margin-bottom: 1.5rem;
+        }
+        p {
+          margin-bottom: 1.5rem !important;
+        }
+      }
+      .card-info {
+        margin-bottom: 1.5rem;
+        .card-info-pic {
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+          }
+        }
+        .card-info-text {
+          margin-left: 1rem;
+          span {
+            font-size: 15px;
+          }
+          h3 {
+            font-size: 18px;
+            font-weight: 400;
+            a {
+              color: #000;
+              border-bottom: 1px solid black;
+            }
+            span {
+              font-size: 15px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .card-last {
+        p {
+          margin-bottom: 1rem;
+          span {
+            margin: 0 5px;
+            color: #b3b3b3;
+          }
+        }
+        .half {
+          p {
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 2px;
+            a {
+              color: $orangecolor;
+            }
+            span {
+              color: $orangecolor;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.footer {
+  font-size: 14px;
+  background: $footerbackcolor;
+  padding: 6em 1.8rem;
+  @media (max-width: 992px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  &__item {
+    margin-bottom: 3rem;
+    h2 {
+      color: #fff;
+      margin-bottom: 40px;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    li {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 10px 0;
+      position: relative;
+
+      a {
+        color: rgba(255, 255, 255, 0.5) !important;
+        span {
+          position: absolute;
+          right: 0;
+          top: 0;
+          color: rgba(255, 255, 255, 0.8) !important;
+        }
+      }
+    }
+  }
+}
+.block-23 ul li {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  span.icon {
+    color: #fff;
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    display: table-cell;
+    vertical-align: top;
+  }
+  span.text {
+    display: table-cell;
+    vertical-align: top;
+  }
+  span.white{
+    color: #fff;
+  }
+}
